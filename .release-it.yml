@@ -6,3 +6,6 @@ github:
 
 hooks:
   after:bump: 'npx auto-changelog -p'
+
+npm:
+  publish: false
