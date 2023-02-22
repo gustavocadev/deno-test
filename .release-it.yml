@@ -3,3 +3,6 @@ git:
 
 github:
   - release: true
+
+hooks:
+  - after:bump: 'npx auto-changelog -p'
