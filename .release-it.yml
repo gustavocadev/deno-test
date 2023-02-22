@@ -3,14 +3,13 @@ git:
 
 github:
   release: true
-  releaseName: "v${version}"
+  releaseName: 'v${version}'
   tokenRef: 'GITHUB_TOKEN'
 
 npm:
   publish: false
 
 plugins:
-  @release-it/conventional-changelog:
-      preset: "angular",
-      infile: "CHANGELOG.md"
-    
+  '@release-it/conventional-changelog':
+    preset: 'angular'
+    infile: 'CHANGELOG.md'
