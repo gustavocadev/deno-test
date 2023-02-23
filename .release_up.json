@@ -3,8 +3,5 @@
 	"github": {
 		"release": true
 	},
-	"versionFile": {},
-	"regex": {
-		"patterns": ["(?<=@)(.*)(?=/cli)"]
-	}
+	"versionFile": {}
 }
